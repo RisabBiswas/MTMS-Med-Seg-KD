@@ -9,7 +9,7 @@ Advancing Medical Image Segmentation Through Multi-Task and Multi-Scale Contrast
 </p>
 
 <p align="center">
-  <img alt="Light" src="/assets/Results.png" width="42%">
+  <img alt="Light" src="/assets/Results.png" width="60%">
 &nbsp; &nbsp; &nbsp; &nbsp;
 </p>
 
