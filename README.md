@@ -8,6 +8,8 @@ Advancing Medical Image Segmentation Through Multi-Task and Multi-Scale Contrast
   <img alt="Dark" src="/assets/T1-S2.png" width="41%">
 </p>
 
+![alt text](/assets/Results.png?raw=true)
+
 ## Description
 This master’s thesis investigates the feasibility of knowledge transfer between neural networks for medical image segmentation tasks, specifically focusing on the transfer from a larger multi-task “Teacher” network to a smaller “Student” network. 
 
