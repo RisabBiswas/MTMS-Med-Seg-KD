@@ -1,3 +1,3 @@
 # Multi Task Multi-Scale Contrastive Knowledge Distillation for Medical Image Segmentation
 
-A Comprehensive Study on Knowledge Distillation in Medical Image Segmentation Task. 
+Advancing Medical Image Segmentation Through Multi-Task and Multi-Scale Contrastive Knowledge Distillation.
