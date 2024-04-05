@@ -3,9 +3,9 @@
 Advancing Medical Image Segmentation Through Multi-Task and Multi-Scale Contrastive Knowledge Distillation.
 
 <p align="center">
-  <img alt="Light" src="/assets/T1-S1.png" width="45%">
+  <img alt="Light" src="/assets/T1-S1.png" width="25%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="/assets/T1-S2.png" width="45%">
+  <img alt="Dark" src="/assets/T1-S2.png" width="25%">
 </p>
 
 ## Description
