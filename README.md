@@ -6,7 +6,7 @@ Advancing Medical Image Segmentation Through Multi-Task and Multi-Scale Contrast
 This master’s thesis investigates the feasibility of knowledge transfer between neural networks for medical image segmentation tasks, specifically focusing on the transfer from a larger multi-task “Teacher” network to a smaller “Student” network. 
 
 ## Contrastive Learning
-Representation of Contrastive Pairs. A beginner’s guide to Contrastive Learning can be found [here.](https://www.v7labs.com/blog/contrastive-learning-guide)
+Representation of Contrastive Pairs. A beginner’s guide to Contrastive Learning can be found [here.](https://www.v7labs.com/blog/contrastive-learning-guide =250x250)
 
 ![alt text](/assets/CL.png?raw=true)
 
