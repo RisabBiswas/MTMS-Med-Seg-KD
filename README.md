@@ -1,4 +1,4 @@
-# Multi Task Multi-Scale Contrastive Knowledge Distillation for Medical Image Segmentation
+# Multi Task Multi-Scale Contrastive Knowledge Distillation for Efficient Medical Image Segmentation
 
 **Thesis Title -** **"Advancing Medical Image Segmentation Through Multi-Task and Multi-Scale Contrastive Knowledge Distillation"**.
 
