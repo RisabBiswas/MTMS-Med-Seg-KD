@@ -6,7 +6,7 @@ This is my master’s thesis, where I investigate the feasibility of knowledge t
 
 <p align="center">
   <img alt="Light" src="/assets/T1-S1.png" width="46%">
-&nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp;
   <img alt="Dark" src="/assets/T1-S2.png" width="45%">
 </p>
 
