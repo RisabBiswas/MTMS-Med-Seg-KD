@@ -60,7 +60,6 @@ def evaluate(model, seg_loader, recon_loader, segmentation_loss_fn, reconstructi
             segmentation_loss = segmentation_loss_fn(segmentation_output, y_seg)
 
             # Reconstruction Task
-            #_, reconstruction_output = model(x_recon)
             reconstruction_loss = F.mse_loss(reconstruction_output, x_recon)
 
             # Overall loss is a weighted sum of segmentation and reconstruction losses
