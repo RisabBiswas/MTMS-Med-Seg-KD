@@ -40,10 +40,27 @@ The student model, a simplified version of the teacher model, is significantly s
 
 ![alt text](/assets/Student.png?raw=true)
 
-## Datasets -
+## Datasets Used
 The CT spleen segmentation dataset from the medical image decathlon is used for all the experiments. Below are the links to the processed 2D images from the CT spleen dataset -
 * [**Medical Image Decathlon**](https://medicaldecathlon.com/) 
 * [**Processed Spleen Segmentation**](https://drive.google.com/drive/folders/1dOwuEVNXVCYg5LuZruJskyzcyi18XyIf?usp=sharing)
+
+## Steps to Use the Framework
+## Step 1 - The first step is to train the teacher network.
+Clone the repository to your desired location:
+```bash
+git clone https://github.com/RisabBiswas/MTMS-Med-Seg-KD
+cd MTMS-Med-Seg-KD
+```
+## Step 2 - Process Data
+There are two options - Either download the .NIFTI file and convert them to 2D slices using the [conversion script](https://github.com/RisabBiswas/MTMS-Med-Seg-KD/blob/main/Data%20Processing/convert_nifti_to_2D_resized.py) or, you can use the processed spleen dataset, which can be downloaded from the above link. 
+
+The data is already split into training and testing datasets. 
+
+Additionally, other binary segmentation datasets that can be explored are - 
+* [**DRIVE (Digital Retinal Images for Vessel Extraction)**](https://paperswithcode.com/dataset/drive)
+* [**RITE (Retinal Images vessel Tree Extraction)**](https://paperswithcode.com/dataset/rite)
+* [**ISIC Dataset**](https://challenge.isic-archive.com/data/)
 
 
 
