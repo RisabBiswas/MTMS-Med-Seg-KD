@@ -302,20 +302,15 @@ class ViT(nn.Module):
     def forward(self, img, mask=None):
         # Create patches
         # from [batch, channels, h, w] to [batch, tokens , N], N=p*p*c , tokens = h/p *w/p
-        #print("Image shape what ViT receieves: ",img.shape)
         img_patches = rearrange(img,
                                 'b c (patch_x x) (patch_y y) -> b (x y) (patch_x patch_y c)',
                                 patch_x=self.p, patch_y=self.p)
-        #print("Shape after patches are created: ",img_patches.shape)
-
         num_patches = (img.shape[2] // self.p) * (img.shape[3] // self.p)
-        #print("Number of patches: ", num_patches)
 
         batch_size, tokens, _ = img_patches.shape
 
         # project patches with linear layer + add pos emb
         img_patches = self.project_patches(img_patches)
-        #print("Shape after tokenization: ",img_patches.shape)
 
         img_patches = torch.cat((expand_to_batch(self.cls_token, desired_size=batch_size), img_patches), dim=1)
 
@@ -367,8 +362,6 @@ class TransUnet(nn.Module):
         self.patch_size = patch_size
         self.vit_transformer_dim = vit_transformer_dim
         vit_channels = self.inplanes * 8 if vit_channels is None else vit_channels
-        # Not clear how they used resnet arch. since the first input after conv
-        # must be 128 channels and half spat dims.
         in_conv1 = nn.Conv2d(in_channels, self.inplanes, kernel_size=7, stride=2, padding=3,
                              bias=False)
         bn1 = nn.BatchNorm2d(self.inplanes)
@@ -413,28 +406,16 @@ class TransUnet(nn.Module):
         #print("Input Image shape: ", x.shape)
         # ResNet 50-like encoder
         x2 = self.init_conv(x)
-        #print("Image shape after init conv: ", x2.shape)
         x4 = self.conv1(x2)
-        #print("Image shape after 1st conv: ", x4.shape)
         x8 = self.conv2(x4)
-        #print("Image shape after 2nd conv: ", x8.shape)
         x16 = self.conv3(x8)  # out shape of 1024, img_dim_vit, img_dim_vit
-        #print("Image shape after 3rd conv: ", x16.shape)
-        #print("Image shapbefore feeding to VIT: ", x16.shape)
-        y = self.vit(x16)  # out shape of number_of_patches, vit_transformer_dim
-        #print("After ViT Encoder: ",y.shape)
-
-        # from [number_of_patches, vit_transformer_dim] -> [number_of_patches, token_dim]
+        y = self.vit(x16)  
         y = self.project_patches_back(y)
-        #print("After Project Patches: ",y.shape)
 
-        # from [batch, number_of_patches, token_dim] -> [batch, channels, img_dim_vit, img_dim_vit]
         y = rearrange(y, 'b (x y) (patch_x patch_y c) -> b c (patch_x x) (patch_y y)',
                       x=self.img_dim_vit // self.patch_size, y=self.img_dim_vit // self.patch_size,
                       patch_x=self.patch_size, patch_y=self.patch_size)
-        #print("After Rearrange: ",y.shape)
         y = self.vit_conv(y)
-        #print("After Vit_Conv: ",y.shape)
         y_seg = self.dec1(y, x8)
         y_seg = self.dec2(y_seg, x4)
         y_seg = self.dec3(y_seg, x2)
