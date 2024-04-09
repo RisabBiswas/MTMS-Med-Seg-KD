@@ -1,4 +1,7 @@
 #### V2 with more less channels and layers (SmallerUNET) ####
+"""
+Student Model
+"""
 import torch
 import torch.nn as nn
 
