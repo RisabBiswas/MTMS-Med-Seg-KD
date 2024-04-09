@@ -1,6 +1,8 @@
 import torch
 import torch.nn as nn
-
+"""
+Student Model
+"""
 class conv_block(nn.Module):
     def __init__(self, in_c, out_c):
         super().__init__()
