@@ -40,4 +40,12 @@ The student model, a simplified version of the teacher model, is significantly s
 
 ![alt text](/assets/Student.png?raw=true)
 
+## Datasets -
+The CT spleen segmentation dataset from the medical image decathlon is used for all the experiments. Below are the links to the processed 2D images from the CT spleen dataset -
+* [**Medical Image Decathlon**]([https://datasets.simula.no/kvasir-seg/](https://medicaldecathlon.com/)) 
+* [**Processed Spleen Segmentation**](https://drive.google.com/drive/folders/1dOwuEVNXVCYg5LuZruJskyzcyi18XyIf?usp=sharing)
+
+
+
+
 
