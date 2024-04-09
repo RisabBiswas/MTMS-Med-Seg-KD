@@ -77,7 +77,7 @@ def train(model_SNet, model_TNet, loader, optimizer, loss_fn):
 def evaluate(model_SNet, loader, loss_fn):
     epoch_loss = 0.0
 
-    model_SNet.eval()  # Only set student model to evaluation mode
+    model_SNet.eval() 
     with torch.no_grad():
         for x, y in loader:
             x = x.to(device, dtype=torch.float32)
@@ -150,8 +150,7 @@ if __name__ == "__main__":
 
     #optimizer = optim.AdamW(model_SNet.parameters(),lr=1.5e-4, betas=(0.9, 0.95), eps=1e-08, weight_decay=0.05, amsgrad=False)
     # optimizer = optim.Adagrad(model_SNet.parameters(), lr=lr, lr_decay=0, weight_decay=0, initial_accumulator_value=0, eps=1e-10)
-    optimizer = optim.RMSprop(model_SNet.parameters(), lr=lr, alpha=0.99, eps=1e-08) # -- 0.72 IoU
-    # optimizer = optim.RMSprop(model_SNet.parameters(), lr=lr, alpha=0.99, eps=1e-08, weight_decay=1e-5)
+    optimizer = optim.RMSprop(model_SNet.parameters(), lr=lr, alpha=0.99, eps=1e-08)
 
     """ Training the model """
     best_valid_loss = float("inf")
@@ -172,7 +171,6 @@ if __name__ == "__main__":
             best_valid_loss = valid_loss
             torch.save(model_SNet.state_dict(), checkpoint_path)
 
-        #scheduler.step(valid_loss)  # Update learning rate scheduler
         end_time = time.time()
         epoch_mins, epoch_secs = epoch_time(start_time, end_time)
 
