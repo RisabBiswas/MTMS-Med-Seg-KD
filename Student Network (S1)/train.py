@@ -95,7 +95,7 @@ if __name__ == "__main__":
     model = model.to(device)
 
     optimizer = optim.AdamW(model.parameters(),lr=1.5e-4, betas=(0.9, 0.95), eps=1e-08, weight_decay=0.05, amsgrad=False)
-    #optimizer = optim.RMSprop(model.parameters(), lr=lr, alpha=0.99, eps=1e-08) # -- 0.72 IoU
+    #optimizer = optim.RMSprop(model.parameters(), lr=lr, alpha=0.99, eps=1e-08)
     loss_fn = DiceLoss()
 
     """ Training the model """
