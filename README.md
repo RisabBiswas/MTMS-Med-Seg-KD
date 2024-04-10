@@ -30,18 +30,21 @@ Representation of Contrastive Pairs. A beginner’s guide to Contrastive Learnin
 
 ## Knowledge Distillation
 Teacher-Student Framework for Knowledge Distillation. A beginner’s guide to Knowledge Distillation can be found [here.](https://www.v7labs.com/blog/knowledge-distillation-guide)
-
-![alt text](/assets/KD.png?raw=true)
+<p align="center">
+  <img alt="Light" src="/assets/KD.png" width="65%">
+</p>
 
 ## Multi-Task Teacher Network
 We trained two teacher models T1 and T2, one a multi-task pre-trained U-Net and a multi-task TransUNet, respectively.
-
-![alt text](/assets/MT-Teacher.png?raw=true)
+<p align="center">
+  <img alt="Light" src="/assets/MT-Teacher.png" width="65%">
+</p>
 
 ## Student Network
 The student model, a simplified version of the teacher model, is significantly smaller in scale and is trained on only 50% of the data compared to the teacher model.
-
-![alt text](/assets/Student.png?raw=true)
+<p align="center">
+  <img alt="Light" src="/assets/Student.png" width="65%">
+</p>
 
 ## Datasets Used
 The CT spleen segmentation dataset from the medical image decathlon is used for all the experiments. Below are the links to the processed 2D images from the CT spleen dataset -
@@ -96,7 +99,6 @@ Other multi-class segmentation datasets that can be explored are -
 * [**Synapse Multi-Organ CT Dataset**](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789)
 * [**ACDC Dataset**](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html)
 * [**AMOS Multi-Modality Abdominal Multi-Organ Segmentation Challenge**](https://amos22.grand-challenge.org/)
-* [**BraTS**](https://www.med.upenn.edu/cbica/brats2020/data.html)
 * [**BraTS 2022**](https://www.kaggle.com/datasets/awsaf49/brats2020-training-data)
 
 
