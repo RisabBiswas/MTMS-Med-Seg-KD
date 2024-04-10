@@ -59,17 +59,17 @@ The data is already split into training and testing datasets.
 
 Input CT Volume of Spleen Dataset - 
 <p float="left">
-  <img src="/assets/GIF_1_IM_6_60_6_82.gif" width="220" /> 
-  <img src="/assets/GIF_1_IM_3_01_3_26.gif" width="220" />
-  <img src="/assets/GIF_1_IM_8_01_8_24_.gif" width="220" />
-  <img src="/assets/GIF_1_IM_22_40_22_70.gif" width="220" />
+  <img src="/assets/GIF_1_IM_6_60_6_82.gif" width="230" /> 
+<!--   <img src="/assets/GIF_1_IM_3_01_3_26.gif" width="220" /> -->
+  <img src="/assets/GIF_1_IM_8_01_8_24_.gif" width="230" />
+  <img src="/assets/GIF_1_IM_22_40_22_70.gif" width="230" />
 </p>
 
 <p float="left">
-  <img src="/assets/GIF_1_M_6_60_6_82.gif" width="220" /> 
-  <img src="/assets/GIF_1_M_3_01_3_26.gif" width="220" />
-  <img src="/assets/GIF_1_M_8_01_8_24_.gif" width="220" />
-  <img src="/assets/GIF_1_M_22_40_22_70.gif" width="220" />
+  <img src="/assets/GIF_1_M_6_60_6_82.gif" width="230" /> 
+<!--   <img src="/assets/GIF_1_M_3_01_3_26.gif" width="220" /> -->
+  <img src="/assets/GIF_1_M_8_01_8_24_.gif" width="230" />
+  <img src="/assets/GIF_1_M_22_40_22_70.gif" width="230" />
 </p>
 
 Additionally, other binary segmentation datasets that can be explored are - 
