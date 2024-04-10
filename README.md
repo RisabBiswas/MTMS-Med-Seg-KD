@@ -18,7 +18,7 @@ This is my master’s thesis, where I investigate the feasibility of knowledge t
 ## MTMS-Contrastive Knowledge Distillation
 The overall architecture of our multi-task multi-scale contrastive knowledge distillation framework for segmentation. 
 <p align="center">
-  <img alt="Light" src="/assets/MTMS-KD.png" width="46%">
+  <img alt="Light" src="/assets/MTMS-KD.png" width="74%">
 </p>
 <!-- ![alt text](/assets/MTMS-KD.png?raw=true) -->
 
