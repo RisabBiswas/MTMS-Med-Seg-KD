@@ -47,18 +47,18 @@ class build_small_unet(nn.Module):
         super().__init__()
 
         """ Encoder """
-        self.e1 = encoder_block(3, 32)  # Reduced channels
-        self.e2 = encoder_block(32, 64)  # Reduced channels
+        self.e1 = encoder_block(3, 32)  
+        self.e2 = encoder_block(32, 64)  
 
         """ Bottleneck """
-        self.b = conv_block(64, 128)  # Reduced channels
+        self.b = conv_block(64, 128) 
 
         """ Decoder """
-        self.d1 = decoder_block(128, 64)  # Reduced channels
-        self.d2 = decoder_block(64, 32)  # Reduced channels
+        self.d1 = decoder_block(128, 64) 
+        self.d2 = decoder_block(64, 32) 
 
         """ Classifier """
-        self.outputs = nn.Conv2d(32, 1, kernel_size=1, padding=0)  # Reduced channels
+        self.outputs = nn.Conv2d(32, 1, kernel_size=1, padding=0)  
 
     def forward(self, inputs):
         """ Encoder """
