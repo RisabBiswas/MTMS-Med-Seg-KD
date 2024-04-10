@@ -11,7 +11,7 @@ This is my master’s thesis, where I investigate the feasibility of knowledge t
 </p>
 
 <p align="center">
-  <img alt="Light" src="/assets/Results.png" width="50%">
+  <img alt="Light" src="/assets/Results.png" width="74%">
 &nbsp; &nbsp; &nbsp; &nbsp;
 </p>
 
@@ -74,7 +74,7 @@ The data is already split into training and testing datasets.
 
 **Processed 2D Slices -** 
 <p align="center">
-  <img src="/assets/Processed Slices.png"  width="74%" /> 
+  <img src="/assets/Processed Slices.png"  width="60%" /> 
 </p>
 
 Additionally, other binary segmentation datasets that can be explored are - 
