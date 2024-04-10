@@ -58,14 +58,11 @@ There are two options - Either download the .NIFTI file and convert them to 2D s
 The data is already split into training and testing datasets. 
 
 Input CT Volume of Spleen Dataset - 
-<p align="center">
-  <img alt="Light" src="/assets/GIF_1_IM_8_01_8_24.gif" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="/assets/GIF_1_IM_6_60_6_82.gif" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="/assets/GIF_1_IM_3_01_3_26.gif" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="/assets/GIF_1_IM_22_40_22_70.gif" width="45%">
+<p float="left">
+  <img src="/assets/GIF_1_IM_8_01_8_24.gif" width="100" />
+  <img src="/assets/GIF_1_IM_6_60_6_82.gif" width="100" /> 
+  <img src="/assets/GIF_1_IM_3_01_3_26.gif" width="100" />
+  <img src="/assets/GIF_1_IM_22_40_22_70.gif" width="100" />
 </p>
 
 Additionally, other binary segmentation datasets that can be explored are - 
