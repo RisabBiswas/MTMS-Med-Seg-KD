@@ -170,7 +170,7 @@ python metrics.py
 ```
 The knowledge distillation is performed at various scales, which can be customised in the training code. 
 
-## Further Exploration - 
+## Further Exploration
 Currently, the architecture has only been tested on binary segmentation tasks and there is still room for further exploration such as - 
 * Experiment on multi-class segmentation task.
 * Try other contrastive loss.
