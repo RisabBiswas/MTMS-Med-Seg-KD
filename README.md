@@ -88,6 +88,12 @@ Additionally, other binary segmentation datasets that can be explored are -
   * [**CVC-ClinicDB**](https://www.dropbox.com/s/p5qe9eotetjnbmq/CVC-ClinicDB.rar?dl=0)
   * [**BKAI-IGH NeoPolyp**](https://www.kaggle.com/competitions/bkai-igh-neopolyp/data)
   * [**CVC-300**](https://figshare.com/articles/figure/Polyp_DataSet_zip/21221579)
+ 
+Other multi-class segmentation datasets that can be explored are - 
+* [**Synapse Multi-Organ CT Dataset**](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789)
+* [**BraTS**](https://www.med.upenn.edu/cbica/brats2020/data.html)
+* [**BraTS 2022**](https://www.kaggle.com/datasets/awsaf49/brats2020-training-data)
+* [**AMOS Multi-Modality Abdominal Multi-Organ Segmentation Challenge**](https://amos22.grand-challenge.org/)
 
 
 
