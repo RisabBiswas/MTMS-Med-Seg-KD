@@ -20,12 +20,13 @@ The overall architecture of our multi-task multi-scale contrastive knowledge dis
 <p align="center">
   <img alt="Light" src="/assets/MTMS-KD.png" width="74%">
 </p>
-<!-- ![alt text](/assets/MTMS-KD.png?raw=true) -->
 
 ## Contrastive Learning
 Representation of Contrastive Pairs. A beginner’s guide to Contrastive Learning can be found [here.](https://www.v7labs.com/blog/contrastive-learning-guide)
-
-![alt text](/assets/CL.png?raw=true)
+<p align="center">
+  <img alt="Light" src="/assets/CL.png" width="65%">
+</p>
+<!-- ![alt text](/assets/CL.png?raw=true) -->
 
 ## Knowledge Distillation
 Teacher-Student Framework for Knowledge Distillation. A beginner’s guide to Knowledge Distillation can be found [here.](https://www.v7labs.com/blog/knowledge-distillation-guide)
