@@ -74,7 +74,7 @@ The data is already split into training and testing datasets.
 
 **Processed 2D Slices -** 
 <p align="center">
-  <img src="/assets/Processed Slices.png"  width="70%" /> 
+  <img src="/assets/Processed Slices.png"  width="69%" /> 
 </p>
 
 Additionally, other binary segmentation datasets that can be explored are - 
