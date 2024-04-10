@@ -11,7 +11,7 @@ This is my master’s thesis, where I investigate the feasibility of knowledge t
 </p>
 
 <p align="center">
-  <img alt="Light" src="/assets/Results.png" width="65%">
+  <img alt="Light" src="/assets/Results.png" width="50%">
 &nbsp; &nbsp; &nbsp; &nbsp;
 </p>
 
