@@ -51,6 +51,24 @@ The CT spleen segmentation dataset from the medical image decathlon is used for 
 * [**Medical Image Decathlon**](https://medicaldecathlon.com/) 
 * [**Processed Spleen Segmentation**](https://drive.google.com/drive/folders/1dOwuEVNXVCYg5LuZruJskyzcyi18XyIf?usp=sharing)
 
+Additionally, other binary segmentation datasets that can be explored are - 
+* [**DRIVE (Digital Retinal Images for Vessel Extraction)**](https://paperswithcode.com/dataset/drive)
+* [**RITE (Retinal Images vessel Tree Extraction)**](https://paperswithcode.com/dataset/rite)
+* [**ISIC Dataset**](https://challenge.isic-archive.com/data/)
+* [**Brain Tumor Dataset**](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)
+* [**2D Brain Tumor Segmentation Dataset**](https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation/code)
+* Colorectal Polyp Segmentation Dataset -
+  * [**KVASIR-SEG**](https://datasets.simula.no/downloads/kvasir-seg.zip)
+  * [**CVC-ClinicDB**](https://www.dropbox.com/s/p5qe9eotetjnbmq/CVC-ClinicDB.rar?dl=0)
+  * [**BKAI-IGH NeoPolyp**](https://www.kaggle.com/competitions/bkai-igh-neopolyp/data)
+  * [**CVC-300**](https://figshare.com/articles/figure/Polyp_DataSet_zip/21221579)
+ 
+Other multi-class segmentation datasets that can be explored are - 
+* [**Synapse Multi-Organ CT Dataset**](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789)
+* [**ACDC Dataset**](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html)
+* [**AMOS Multi-Modality Abdominal Multi-Organ Segmentation Challenge**](https://amos22.grand-challenge.org/)
+* [**BraTS 2022**](https://www.kaggle.com/datasets/awsaf49/brats2020-training-data)
+
 ## Steps to Use the Framework
 ### Step 1 - Clone the repository to your desired location:
 
@@ -83,23 +101,69 @@ The data is already split into training and testing datasets.
   <img src="/assets/Processed Slices.png"  width="69%" /> 
 </p>
 
-Additionally, other binary segmentation datasets that can be explored are - 
-* [**DRIVE (Digital Retinal Images for Vessel Extraction)**](https://paperswithcode.com/dataset/drive)
-* [**RITE (Retinal Images vessel Tree Extraction)**](https://paperswithcode.com/dataset/rite)
-* [**ISIC Dataset**](https://challenge.isic-archive.com/data/)
-* [**Brain Tumor Dataset**](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)
-* [**2D Brain Tumor Segmentation Dataset**](https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation/code)
-* Colorectal Polyp Segmentation Dataset -
-  * [**KVASIR-SEG**](https://datasets.simula.no/downloads/kvasir-seg.zip)
-  * [**CVC-ClinicDB**](https://www.dropbox.com/s/p5qe9eotetjnbmq/CVC-ClinicDB.rar?dl=0)
-  * [**BKAI-IGH NeoPolyp**](https://www.kaggle.com/competitions/bkai-igh-neopolyp/data)
-  * [**CVC-300**](https://figshare.com/articles/figure/Polyp_DataSet_zip/21221579)
- 
-Other multi-class segmentation datasets that can be explored are - 
-* [**Synapse Multi-Organ CT Dataset**](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789)
-* [**ACDC Dataset**](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html)
-* [**AMOS Multi-Modality Abdominal Multi-Organ Segmentation Challenge**](https://amos22.grand-challenge.org/)
-* [**BraTS 2022**](https://www.kaggle.com/datasets/awsaf49/brats2020-training-data)
+### Step 3 - Train the Teacher Network
+Training the multi-task teacher network (T1 or T2) is straightforward. Now that you have already created data folders, to train the T1 model, follow the below commands. 
+```bash
+cd Multi-Task Teacher Network (T1)
+```
+or,
+```bash
+cd Multi-Task Teacher Network (T2)
+```
+```bash
+python train.py
+```
+You can experiment with different weight values for the reconstruction loss. Additionally, for all the experiments I have used DiceBCE loss as the choice of loss function. You can try other loss functions as well such as Dice Loss. 
+
+The pre-trained weights can also be downloaded from below -
+* T1 - Will be uploaded soon!
+* T2 - Will be uploaded soon!
+
+### Step 4 - Inference on the Teacher Network
+Once the teacher network is trained, to run inference, follow the below command -
+```bash
+python inference.py
+```
+also, you can look at the metrics by running the following - 
+```bash
+python metrics.py
+```
+
+### Step 4 - Train the Student Network (S1 or S2) W/o Knowledge Distillation
+Before performing knowledge distillation and analysing its effect on the student model, we would like to train the student model and see it's performance w/o any knowledge transfer from the teacher network. 
+```bash
+cd Student Network (S1)
+```
+```bash
+python train.py
+```
+```bash
+python inference.py
+```
+also, you can look at the metrics by running the following - 
+```bash
+python metrics.py
+```
+The pre-trained weights can also be downloaded from below -
+* S1 - Will be uploaded soon!
+* S2 - Will be uploaded soon!
+
+### Step 5 - Train the Student Network (S1 or S2) With Knowledge Distillation
+The steps to train the student model with contrastive knowledge distillation are similar and straightforward - 
+```bash
+cd KD_Student Network (T1-S1)
+```
+```bash
+python train_Student.py
+```
+```bash
+python inference.py
+```
+also, you can look at the metrics by running the following - 
+```bash
+python metrics.py
+```
+The knowledge distillation is performed at various scales, which can be customised in the training code. 
 
 
 
