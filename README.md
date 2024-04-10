@@ -91,9 +91,10 @@ Additionally, other binary segmentation datasets that can be explored are -
  
 Other multi-class segmentation datasets that can be explored are - 
 * [**Synapse Multi-Organ CT Dataset**](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789)
+* [**ACDC Dataset**](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html)
+* [**AMOS Multi-Modality Abdominal Multi-Organ Segmentation Challenge**](https://amos22.grand-challenge.org/)
 * [**BraTS**](https://www.med.upenn.edu/cbica/brats2020/data.html)
 * [**BraTS 2022**](https://www.kaggle.com/datasets/awsaf49/brats2020-training-data)
-* [**AMOS Multi-Modality Abdominal Multi-Organ Segmentation Challenge**](https://amos22.grand-challenge.org/)
 
 
 
