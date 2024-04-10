@@ -46,8 +46,8 @@ The CT spleen segmentation dataset from the medical image decathlon is used for 
 * [**Processed Spleen Segmentation**](https://drive.google.com/drive/folders/1dOwuEVNXVCYg5LuZruJskyzcyi18XyIf?usp=sharing)
 
 ## Steps to Use the Framework
-### Step 1 - The first step is to train the teacher network.
-Clone the repository to your desired location:
+### Step 1 - Clone the repository to your desired location:
+
 ```bash
 git clone https://github.com/RisabBiswas/MTMS-Med-Seg-KD
 cd MTMS-Med-Seg-KD
@@ -56,6 +56,17 @@ cd MTMS-Med-Seg-KD
 There are two options - Either download the .NIFTI file and convert them to 2D slices using the [conversion script](https://github.com/RisabBiswas/MTMS-Med-Seg-KD/blob/main/Data%20Processing/convert_nifti_to_2D_resized.py) or, you can use the processed spleen dataset, which can be downloaded from the above link. 
 
 The data is already split into training and testing datasets. 
+
+Input CT Volume of Spleen Dataset - 
+<p align="center">
+  <img alt="Light" src="/assets/GIF_1_IM_8_01_8_24.gif" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Light" src="/assets/GIF_1_IM_6_60_6_82.gif" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Light" src="/assets/GIF_1_IM_3_01_3_26.gif" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Light" src="/assets/GIF_1_IM_22_40_22_70.gif" width="45%">
+</p>
 
 Additionally, other binary segmentation datasets that can be explored are - 
 * [**DRIVE (Digital Retinal Images for Vessel Extraction)**](https://paperswithcode.com/dataset/drive)
