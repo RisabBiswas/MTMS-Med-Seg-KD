@@ -17,8 +17,10 @@ This is my master’s thesis, where I investigate the feasibility of knowledge t
 
 ## MTMS-Contrastive Knowledge Distillation
 The overall architecture of our multi-task multi-scale contrastive knowledge distillation framework for segmentation. 
-
-![alt text](/assets/MTMS-KD.png?raw=true)
+<p align="center">
+  <img alt="Light" src="/assets/MTMS-KD.png" width="46%">
+</p>
+<!-- ![alt text](/assets/MTMS-KD.png?raw=true) -->
 
 ## Contrastive Learning
 Representation of Contrastive Pairs. A beginner’s guide to Contrastive Learning can be found [here.](https://www.v7labs.com/blog/contrastive-learning-guide)
