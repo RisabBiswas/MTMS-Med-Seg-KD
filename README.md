@@ -65,9 +65,9 @@ Additionally, other binary segmentation datasets that can be explored are -
 * [**2D Brain Tumor Segmentation Dataset**](https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation/code)
 * Colorectal Polyp Segmentation Dataset -
   * [**KVASIR-SEG**](https://datasets.simula.no/downloads/kvasir-seg.zip)
-** [**CVC-ClinicDB**](https://www.dropbox.com/s/p5qe9eotetjnbmq/CVC-ClinicDB.rar?dl=0)
-** [**BKAI-IGH NeoPolyp**](https://www.kaggle.com/competitions/bkai-igh-neopolyp/data)
-** [**CVC-300**](https://figshare.com/articles/figure/Polyp_DataSet_zip/21221579)
+  * [**CVC-ClinicDB**](https://www.dropbox.com/s/p5qe9eotetjnbmq/CVC-ClinicDB.rar?dl=0)
+  * [**BKAI-IGH NeoPolyp**](https://www.kaggle.com/competitions/bkai-igh-neopolyp/data)
+  * [**CVC-300**](https://figshare.com/articles/figure/Polyp_DataSet_zip/21221579)
 
 
 
