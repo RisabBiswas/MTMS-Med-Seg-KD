@@ -110,6 +110,7 @@ or,
 ```bash
 cd Multi-Task Teacher Network (T2)
 ```
+run the training script -
 ```bash
 python train.py
 ```
@@ -130,13 +131,15 @@ python metrics.py
 ```
 
 ### Step 4 - Train the Student Network (S1 or S2) W/o Knowledge Distillation
-Before performing knowledge distillation and analysing its effect on the student model, we would like to train the student model and see it's performance w/o any knowledge transfer from the teacher network. 
+Before performing knowledge distillation and analysing its effect on the student model, we would like to train the student model and see its performance w/o any knowledge transfer from the teacher network. 
 ```bash
 cd Student Network (S1)
 ```
+run the training script -
 ```bash
 python train.py
 ```
+run the inference script -
 ```bash
 python inference.py
 ```
@@ -153,9 +156,11 @@ The steps to train the student model with contrastive knowledge distillation are
 ```bash
 cd KD_Student Network (T1-S1)
 ```
+run the training script -
 ```bash
 python train_Student.py
 ```
+run the inference script -
 ```bash
 python inference.py
 ```
