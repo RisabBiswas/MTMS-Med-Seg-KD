@@ -76,7 +76,7 @@ The data is already split into training and testing datasets.
 <p align="center">
   <img src="/assets/DP_1.png" width="230" /> 
 <!--   <img src="/assets/GIF_1_IM_3_01_3_26.gif" width="220" /> -->
-  <img src="/assets/DP_2.png" width="228" />
+  <img src="/assets/DP_2.png" width="232" />
 </p>
 
 Additionally, other binary segmentation datasets that can be explored are - 
