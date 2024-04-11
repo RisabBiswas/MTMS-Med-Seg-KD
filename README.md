@@ -176,7 +176,7 @@ Currently, the architecture has only been tested on binary segmentation tasks an
 * Try other contrastive loss.
 
 ## Acknowledgement
-I extend my heartfelt gratitude to my guru 🙏🏻 [Dr. Chaitanya Kaul](https://www.linkedin.com/in/chaitanya-kaul-859330b6/) for his visionary guidance and unwavering support throughout my project. His mentorship has significantly shaped me as a researcher and as a better individual. I am profoundly grateful for his invaluable contributions to my professional and personal growth. 
+I extend my heartfelt gratitude to my guru 🙏🏻 [Dr. Chaitanya Kaul](https://www.linkedin.com/in/chaitanya-kaul-859330b6/) for his visionary guidance and unwavering support throughout my project. His mentorship has significantly shaped me as a researcher and a better individual. I am profoundly grateful for his invaluable contributions to my professional and personal growth. 
 
 ## Authors
 - [Risab Biswas](https://www.linkedin.com/in/risab-biswas/)
@@ -184,16 +184,9 @@ I extend my heartfelt gratitude to my guru 🙏🏻 [Dr. Chaitanya Kaul](https:/
 
 
 ## Read the Thesis 
-If you are interested in reading the thesis, you can find it here. And if you like the project, we would appreciate a citation to the original work:
+You can find it [here](https://www.linkedin.com/in/risab-biswas/) if you are interested in reading the thesis. And if you like the project, we would appreciate a citation to the original work:
 ```
-  @misc{biswas2023layerwise,
-        title={A Layer-Wise Tokens-to-Token Transformer Network for Improved Historical Document Image Enhancement}, 
-        author={Risab Biswas and Swalpa Kumar Roy and Umapada Pal},
-        year={2023},
-        eprint={2312.03946},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV}
-  }
+Citation will be added here soon!
 ```
 
 ## Contact 
