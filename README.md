@@ -2,6 +2,20 @@
 
 **Thesis Title -** **"Advancing Medical Image Segmentation Through Multi-Task and Multi-Scale Contrastive Knowledge Distillation" (Thesis will be added here soon!)**
 
+<p align="center">
+  <img src="/assets/GIF_1_IM_6_60_6_82.gif" width="230" /> 
+<!--   <img src="/assets/GIF_1_IM_3_01_3_26.gif" width="220" /> -->
+  <img src="/assets/GIF_1_IM_8_01_8_24_.gif" width="230" />
+  <img src="/assets/GIF_1_IM_22_40_22_70.gif" width="230" />
+</p>
+
+<p align="center">
+  <img src="/assets/GIF_1_M_6_60_6_82.gif" width="230" /> 
+<!--   <img src="/assets/GIF_1_M_3_01_3_26.gif" width="220" /> -->
+  <img src="/assets/GIF_1_M_8_01_8_24_.gif" width="230" />
+  <img src="/assets/GIF_1_M_22_40_22_70.gif" width="230" />
+</p>
+
 This is my master’s thesis, where I investigate the feasibility of knowledge transfer between neural networks for medical image segmentation tasks, specifically focusing on the transfer from a larger multi-task “Teacher” network to a smaller “Student” network. 
 
 <p align="center">
