@@ -68,6 +68,7 @@ The CT spleen segmentation dataset from the medical image decathlon is used for 
 * [**Medical Image Decathlon**](https://medicaldecathlon.com/) 
 * [**Processed Spleen Segmentation**](https://drive.google.com/drive/folders/1dOwuEVNXVCYg5LuZruJskyzcyi18XyIf?usp=sharing)
 
+## Additional Datasets
 Additionally, other binary segmentation datasets that can be explored are - 
 * [**DRIVE (Digital Retinal Images for Vessel Extraction)**](https://paperswithcode.com/dataset/drive)
 * [**RITE (Retinal Images vessel Tree Extraction)**](https://paperswithcode.com/dataset/rite)
