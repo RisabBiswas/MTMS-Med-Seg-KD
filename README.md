@@ -202,9 +202,16 @@ I extend my heartfelt gratitude to my guru 🙏🏻 [Dr. Chaitanya Kaul](https:/
 
 
 ## Read the Thesis 
-You can find it [here](https://www.linkedin.com/in/risab-biswas/) if you are interested in reading the thesis. And if you like the project, we would appreciate a citation to the original work:
+You can find it [here](https://arxiv.org/abs/2406.03173) if you want to read the thesis. And if you like the project, we would appreciate a citation to the original work:
 ```
-Citation will be added here soon!
+@misc{biswas2024multitask,
+      title={Multi-Task Multi-Scale Contrastive Knowledge Distillation for Efficient Medical Image Segmentation}, 
+      author={Risab Biswas},
+      year={2024},
+      eprint={2406.03173},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
 ```
 
 ## Contact 
