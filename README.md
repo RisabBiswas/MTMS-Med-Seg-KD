@@ -1,6 +1,6 @@
 # Multi Task Multi-Scale Contrastive Knowledge Distillation for Efficient Medical Image Segmentation
 
-**Thesis Title -** **["Advancing Medical Image Segmentation Through Multi-Task and Multi-Scale Contrastive Knowledge Distillation"](https://arxiv.org/abs/2406.03173)**
+**Thesis Title -** **[Advancing Medical Image Segmentation Through Multi-Task and Multi-Scale Contrastive Knowledge Distillation](https://arxiv.org/abs/2406.03173)**
 
 This is my master’s thesis, where I investigate the feasibility of knowledge transfer between neural networks for medical image segmentation tasks, specifically focusing on the transfer from a larger multi-task “Teacher” network to a smaller “Student” network using a multi-scale contrastive learning approach. 
 
